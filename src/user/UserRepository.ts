@@ -1,6 +1,6 @@
 import { EntityRepository, Repository } from "typeorm";
 import _ from 'lodash';
-import {User} from './entity/MyUser';
+import {MyUser} from './entity/MyUser';
 
-@EntityRepository(User)
-export class UserRepository extends Repository<User> {}
+@EntityRepository(MyUser)
+export class UserRepository extends Repository<MyUser> {}
